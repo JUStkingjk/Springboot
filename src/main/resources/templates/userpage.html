@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="/CSS/userpage.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" >
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.js"></script>
+</head>
+
+<body class="day">
+<div class="titlebar">
+    <h1>userpage</h1>
+    <hr/>
+</div>
+<div class="main">
+    <div class="left">
+        <div class="sidebar">
+            <h3>sideBar</h3>
+            <hr/>
+            <ul class="sbtn">
+                <li class="DNchange">
+                    <i class="fa fa-book"></i>
+                </li>
+                <li class="showsearch">
+                    <i class="fa fa-link"></i>
+                </li>
+                <li class="">
+                    <i class="fa fa-dashboard"></i>
+                </li>
+                <li class="">
+                    <i class="fa fa-user"></i>
+                </li>
+                <li class="">
+                    <i class="fa fa-adn"></i>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="center">
+        <div class="checkwindow hide">
+                <table id="tab" class="table-condensed table-bordered table-striped">
+                    <tr>
+                        <td>001</td>
+                        <td>002</td>
+                        <td>003</td>
+                        <td>004</td>
+                    </tr>
+                </table>
+            <hr>
+            <div class="inputBar">
+                <span>name:</span><input id="text-name" type="text"><br>
+                <span>power:</span><input id="text-power" type="text"><br>
+                <span>occupation:</span><input id="text-occupation" type="text"><br>
+                <button type="submit" id="search" class="search">提交</button>
+                <button type="reset">重置</button>
+            </div>
+        </div>
+    </div>
+    <div class="right">
+        <div class="noteBar">
+            <h3>NoteBar</h3>
+            <hr/>
+        </div>
+    </div>
+</div>
+<hr/>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="/js/userpage.js"></script>
+</body>
+</html>

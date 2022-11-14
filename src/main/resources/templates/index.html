@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>hello page</title>
+    <link rel="icon" href="/img/man.jpg">
+    <link rel="stylesheet" href="/CSS/index003.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="title" id="top">
+    <h1>
+        Hello Spring
+        <cite><sub style="font-size: 15px;">from JustKing</sub></cite>
+    </h1>
+</div>
+<div class="content">
+    <div class="sidebar">
+        <ul>
+            <li>
+                <a href="#top">
+                    <i class="fa fa-arrow-up"></i>
+                    <span>top</span>
+                </a>
+            </li>
+            <li>
+                <a href="/login">
+                    <i class="fa fa-user-circle"></i>
+                    <span>login</span>
+                </a>
+            </li>
+            <li>
+                <a>
+                    <i class="fa fa-user-plus"></i>
+                    <span>get UserCount</span>
+                </a>
+            </li>
+            <li>
+                <a>
+                    <i class="fa fa-plus"></i>
+                    <span>null</span>
+                </a>
+            </li>
+            <li>
+                <a >
+                    <i class="fa fa-gear"></i>
+                    <span>setting</span>
+                </a>
+            </li>
+            <li>
+                <a href="#end">
+                    <i class="fa fa-arrow-down"></i>
+                    <span>end</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="main">
+        <div class="page hello">
+            <img src="/img/laodage.png" style="width:300px;height: 300px;">
+            <p>Project information </p>
+            <P>project name: </P>
+            <p>author: </p>
+            <p>description: </p>
+        </div>
+        <div class="page">
+            <P>登录界面已经单独写了， 直接跳转算了</P>
+            <a href="/login">
+                <span>login</span>
+            </a>
+        </div>
+        <div class="page zhuce">
+            <div>
+                <form action="/register" method="post">
+                <p>注册</p>
+                <input type="text" placeholder="your username" name="newUserName" size="40" maxlength="16">
+                <input type="text" placeholder="your password" name="newPassword" size="40" maxlength="16">
+                <button type="submit">提交</button>
+                </form>
+            </div>
+        </div>
+        <div class="page">
+            null
+        </div>
+        <div class="page setting">
+            setting
+        </div>
+    </div>
+    <div class="msgBar">
+        右边不知道该写点什么了，空着也太宽了，就这样吧
+    </div>
+</div>
+<div id="end">
+    <strong>相关内容</strong>
+    <ul>
+        <li>Java</li>
+        <li>C</li>
+        <li>C++</li>
+        <li>Html</li>
+        <li>Js</li>
+        <li>Sql</li>
+        <li>Qt</li>
+    </ul>
+</div>
+<script src="/js/index.js"></script>
+</body>
+</html>

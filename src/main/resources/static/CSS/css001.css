@@ -1,0 +1,29 @@
+
+.LoginForm{
+    margin:100px auto auto;
+    background: linear-gradient(to right, #ff6666, #7a7af6);
+    border: 5px solid darkslateblue;
+    width: 800px;
+}
+.LoginForm p{
+
+    text-align: center;
+}
+.style_one {
+    background: antiquewhite url("http://p0.so.qhmsg.com/t012b9609a9a58aa954.jpg") no-repeat;
+    background-size: cover;
+}
+.title{
+    width: 800px;
+    background: linear-gradient(to right, #ff6666, #7a7af6);
+    color: antiquewhite;
+    text-align: center;
+    text-shadow: 3px 3px #e39345;
+}
+.button{
+    justify-content: center;
+    color: #8551f5;
+}
+#remember-me{
+    alignment: center;
+}
